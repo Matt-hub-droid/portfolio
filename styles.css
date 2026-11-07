@@ -47,3 +47,123 @@ dialog{background:#fff;border-color:#bbd1c1;color:#154734;box-shadow:0 25px 90px
 a:focus-visible,button:focus-visible{outline:3px solid #bd8b13}
 @media(max-width:1050px){.nav-cta{display:inline-flex}.nav-links{gap:18px}.header-inner{gap:17px}}
 @media(max-width:700px){.wordmark{font-size:12px}.nav-cta{display:none}.mobile-linkedin{display:block}.menu-toggle{background:#fff;border-color:#aec7b7}.menu-toggle span{background:#154734}.nav-links{background:#fff;border-color:#d7e5da;box-shadow:0 15px 25px #143f2418}.nav-links a{color:#154734}}
+
+
+/* Cal Poly portfolio v2: white, green and gold */
+:root{color-scheme:light;--bg:#fff;--surface:#f7faf7;--surface2:#edf4ef;--stroke:#d8e4dc;--text:#163727;--muted:#566b60;--accent:#154734;--accent2:#bd8b13}
+body{background:#fff;color:var(--text)}
+body::before{background:radial-gradient(ellipse at 75% 18%,#deebe147,transparent 64%)}
+.noise{opacity:.009}
+.site-header{background:#ffffffed;border-color:#dce7de;box-shadow:0 3px 20px #1547340a}
+.wordmark{color:#154734;font-size:14px;letter-spacing:.08em}
+.nav-links{gap:clamp(9px,1.4vw,24px)}
+.nav-links a{color:#3c604b;font-size:12px;font-weight:600}
+.nav-links a:hover{color:#a47b19}
+.nav-cta{background:#154734;border-color:#154734;color:#fff;white-space:nowrap}
+.nav-cta:hover{color:#fff;background:#256448}
+.nav-cta span{color:#f2d38a}
+.mobile-linkedin{display:none}
+.eyebrow,.section-label,.dash-kicker,.skill-detail{color:#1a6a4a}
+.status-dot{background:#bd8b13;box-shadow:0 0 0 5px #bd8b1326}
+.hero h1{color:#143d2b}
+.hero h1 em,.contact-panel h2 em{background:linear-gradient(90deg,#154734,#bd8b13);background-clip:text;color:transparent}
+.hero-description{color:#52695b}
+.hero-description strong{color:#154734}
+.button.primary{background:#154734;color:#fff}
+.button.primary:hover{background:#236848}
+.button.secondary{background:#fff;color:#154734;border:1px solid #bdd0c2}
+.button.secondary:hover{background:#eef6f0}
+.hero-bottom{color:#557663}
+.hero-bottom i{background:#bd8b13}
+.small-square{border-color:#bd8b13}
+.halo-one{background:#e4efe4b8}.halo-two{background:#efe2bd80}
+.dashboard-window{background:#fff;border:1px solid #ccddd0;box-shadow:0 23px 65px #133c2426}
+.window-bar{background:#f7faf7;border-color:#e1e9e2;color:#627c69}
+.traffic b{background:#c4d0c6}.window-right{color:#317550}
+.dash-heading h2{color:#154734}.dash-heading h2 span{color:#bd8b13}
+.date-bubble{background:#ecf4ee;color:#154734}
+.metric{background:#f5f9f6;border-color:#dce8df}
+.metric strong{color:#154734}.metric strong span{color:#b2c4b5}
+.metric small,.metric>span{color:#627c69}
+.chart-panel{background:#f9fbf9;border-color:#dce8df}
+.chart-heading{color:#154734}.chart-pip,.chart-axis,.dashboard-caption{color:#728b78}
+.floating-chip{background:#fff;border-color:#d3e1d5;color:#154734;box-shadow:0 14px 28px #103a211c}
+.chip-icon{color:#bd8b13}
+.projects-section,.skills-section,.experience-section{background:#f6f9f6;border-color:#e1eae2}
+.heading-muted{color:#6d8876}
+.section-intro{color:#5b7062}
+.section-intro strong{color:#154734}
+.filter{border-color:#d0dfd2;color:#426550}
+.filter:hover,.filter.active{background:#154734;color:#fff;border-color:#154734}
+.project-card,.skill-card{background:#fff;border-color:#dbe7dd;box-shadow:0 5px 18px #15473407}
+.project-card:hover{border-color:#80ab8b}
+.project-image{background:linear-gradient(135deg,#eaf1e9,#f9fbf9)}
+.project-image::after{background:#c1a35325}
+.placeholder-badge{background:#fff;border-color:#d6e3d7;color:#526b59}
+.mini-window{background:#fff;border-color:#cadbce;box-shadow:0 12px 25px #123c2214}
+.mini-top{color:#55745e}
+.mini-bars{border-color:#cad9ce}
+.mini-bars b{background:linear-gradient(#4c9474,#154734)}
+.mini-code{color:#38614b}
+.mini-code .kw{color:#11663f}
+.mini-code .str{color:#a77c13}
+.mini-statrow span{background:#edf5ee;color:#154734;border-color:#cde0d1}
+.mini-statrow small{color:#6a8773}
+.project-body h3,.skill-card h3{color:#17432f}
+.tag{color:#215d3b;border-color:#c7ddcf;background:#f4f9f5}
+.project-body p,.skill-card p{color:#526b5a}
+.project-view,.text-link{color:#155739;border-color:#a4bba9}
+.project-footnote{color:#66816e}
+.about-copy{color:#4e6657}
+.about-copy strong{color:#154734}
+.text-gradient{color:#b3881f}
+.skill-icon.excel{background:#dcf0e4;color:#1b6741}
+.skill-icon.powerbi{background:#faf0d6;color:#906d10}
+.skill-icon.sql{background:#e7efe9;color:#255b40}
+.skill-icon.strategy{background:#e5f0eb;color:#22664d}
+.contact-panel{background:linear-gradient(125deg,#edf5ee,#fff8e9);border-color:#d7e6d9}
+.contact-panel h2{color:#154734}
+.contact-panel>p:not(.section-label),.contact-panel small{color:#59735f}
+.contact-panel small a{color:#165a3a}
+.site-footer{border-color:#dce7de}
+.footer-inner{color:#657e6d}
+.footer-inner a{color:#155639}
+dialog{background:#fff;color:#154734;border-color:#d2e1d5;box-shadow:0 25px 85px #12382647}
+dialog p,dialog ul{color:#526e5c}
+.dialog-close{color:#154734}
+.menu-toggle{background:#fff;border-color:#c9d8cc}
+.menu-toggle span{background:#154734}
+@media(max-width:700px){.nav-links{background:#fff;border-color:#dce8dc}.mobile-linkedin{display:block!important;color:#154734!important}.hero{padding-top:48px}}
+/* Experience and education cards */
+.experience-list{display:grid;gap:14px}
+.experience-item{display:grid;grid-template-columns:205px minmax(0,1fr);gap:35px;background:#fff;border:1px solid #dbe7de;border-radius:11px;padding:29px}
+.experience-meta{display:flex;flex-direction:column;gap:10px}
+.experience-index{font-size:32px;font-weight:800;line-height:1;color:#bd8b13}
+.experience-period{color:#66806c;font-size:12px}
+.experience-org{font-weight:750;font-size:12px;letter-spacing:.07em;text-transform:uppercase;color:#176143;margin:0}
+.experience-main h3{font-size:24px;letter-spacing:-.04em;color:#154734;margin:7px 0 11px}
+.experience-main p:not(.experience-org){color:#566d5c;margin:0}
+.experience-main ul{color:#536e5b;font-size:13px;line-height:1.9;padding-left:20px;margin-bottom:0}
+.detail-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.detail-card{background:#fff;border:1px solid #dce7dd;border-radius:11px;padding:31px;min-width:0}
+.detail-kicker{color:#997319;letter-spacing:.12em;font-weight:800;font-size:10px}
+.detail-card h3{font-size:25px;line-height:1.2;letter-spacing:-.035em;margin:17px 0 12px;color:#154734}
+.detail-card p{color:#5a705e;font-size:14px;line-height:1.8}
+.detail-subheading{font-weight:600}
+.coursework{margin-top:23px}.coursework strong{font-size:13px;color:#154734}
+.pill-group{display:flex;gap:7px;flex-wrap:wrap;margin-top:12px}
+.pill-group span{font-size:11px;color:#255f42;background:#edf5ef;border:1px solid #d2e4d6;border-radius:999px;padding:7px 10px}
+.credential-entry{display:flex;align-items:start;gap:14px;margin-top:23px;padding-top:18px;border-top:1px solid #e0eae2}
+.credential-entry strong{font-size:15px;color:#154734}
+.credential-entry p{font-size:12px;margin:6px 0 0}
+.status-pill{flex-shrink:0;font-size:9px;font-weight:800;letter-spacing:.04em;border-radius:6px;background:#fff2d6;color:#8b6611;padding:7px 9px}
+.status-pill.neutral{background:#eaf2ec;color:#35634b}
+.resume-panel{display:grid;grid-template-columns:1.4fr .6fr;align-items:center;gap:25px;padding:38px;background:#f4f8f4;border:1px solid #dae7dd;border-radius:13px}
+.resume-panel .section-label{margin:0}
+.resume-panel h2{margin:13px 0 18px}
+.resume-panel p:not(.section-label){color:#59705e;line-height:1.8;max-width:570px}
+.resume-cta{display:flex;flex-direction:column;align-items:flex-start;gap:9px}
+.resume-pending{padding:14px 16px;border-radius:7px;background:#e6ede7;color:#557562;font-size:13px;font-weight:700}
+.resume-cta .text-link{margin-top:9px}
+@media(max-width:850px){.experience-item{grid-template-columns:1fr;gap:16px}.experience-meta{flex-direction:row;align-items:center}.detail-grid,.resume-panel{grid-template-columns:1fr}}
+@media(max-width:700px){.experience-item,.detail-card{padding:23px}.resume-panel{padding:24px}.nav-links a{font-size:14px}}
